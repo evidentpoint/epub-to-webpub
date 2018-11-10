@@ -1,0 +1,33 @@
+{
+  "name": "epub-to-webpub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/generate-epub-manifest.js",
+  "dependencies": {
+    "r2-shared-js": "^1.0.0-alpha.4",
+    "ta-json-x": "^2.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.5",
+    "typescript": "^3.1.1"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "build": "tsc",
+    "generate": "node \"./dist/generate-epub-manifest.js\""
+  },
+  "author": {
+    "name": "Evident Point",
+    "organization": "Evident Point",
+    "url": "http://github.com/evidentpoint/"
+  },
+  "license": "BSD-3-Clause",
+  "licenses": [
+    {
+      "type": "BSD-3-Clause",
+      "url": "http://opensource.org/licenses/BSD-3-Clause"
+    }
+  ]
+}
